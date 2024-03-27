@@ -172,9 +172,6 @@ namespace SnakeGame
             }
         }
 
-
-
-
         private bool CheckCollision()
         {
             var head = snake.First();
@@ -204,8 +201,6 @@ namespace SnakeGame
 
             MessageBox.Show($"Game Over! Your score: {snake.Count}. Your result has been saved.", "Game Over", MessageBoxButton.OK);
         }
-
-
 
         private void Window_KeyDown(object sender, KeyEventArgs e)
         {
